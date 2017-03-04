@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_tool_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#39d26c">
+
+    <TextView
+        android:id="@+id/toolText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="أعضاء المجلس"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+    <!--to add this tool bar add thebelow to XML needed-->
+    <!--<include-->
+    <!--android:id="@+id/name of which XML u will add the tool bar"-->
+    <!--layout="@layout/"name of the tool bar XML file"/>-->
+
+</android.support.v7.widget.Toolbar>
